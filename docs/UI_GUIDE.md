@@ -2,65 +2,81 @@
 
 ## Brand position
 
-Rodriguez Advisory is presented as a focused finance operations visibility partner. The one-page site should always emphasize:
+Rodriguez Advisory is a premium, founder-led finance operations visibility advisory site. The one-page homepage should emphasize:
 
 - Finance Operations Visibility from CRM follow-up to cash collection.
-- CRM-to-Cash clarity.
-- AP-to-Payment confidence.
-- AR and collections follow-up discipline.
-- AI-assisted workflows only where they help, with human review and no live provider claims until intentionally added.
+- CRM-to-Cash and AP-to-Payment workflow clarity.
+- Ownership, follow-up, controls, and human review.
+- Practical AI support only where it helps; do not imply live Grok/API integrations.
 
 ## Visual system
 
 ### Palette
 
-- Navy `#10233f`: primary brand color, hero text, dark sections, primary buttons.
-- Blue `#2563eb`: action color, links, accents, and secondary highlights.
-- Teal `#0f766e`: positive status and operational confidence accents.
-- Gold `#c0841a`: small editorial accents for solution sections.
-- Paper `#f8fafc`: page background.
+- Deep Navy `#1B2A4A`: premium structure, footer, dark section, assistant badges, primary text accents.
+- Warm Stone `#F5F1EB`: main page background and calm workflow surfaces.
+- Amber Gold `#C9922A`: CTA buttons, proof metric numbers, selected highlights, and small states.
+- Near Black `#1A1A2E`: default body text.
+- Light Slate `#E8EBF0`: card borders and low-emphasis dividers.
+- White `#FFFFFF`: cards and content panels.
+
+Avoid gradients, neon, purple, bright blue, glassmorphism, playful chatbot visuals, stock photography, and generic SaaS patterns.
 
 ### Typography
 
-Use system sans-serif fonts through the global CSS stack. Headlines should be bold, compact, and high contrast. Supporting copy should use relaxed line-height for consultative readability.
+Use Inter through the global CSS stack. Headlines should be large, calm, high-contrast, and tightly tracked. Body copy should be short with clear hierarchy and no tiny low-contrast text.
 
 ### Layout
 
-- Keep the page as a single-scroll marketing site.
-- Use rounded cards, soft shadows, and subtle borders to convey operational polish.
-- Use responsive grids that collapse cleanly on mobile.
-- Navigation should anchor to page sections rather than opening separate pages.
-- Place proof metrics directly below the hero to reinforce credibility before deeper solution content.
+- Keep a one-page site in this order: Header, Hero + AI Workflow Assistant, Proof Metrics, What We Solve, Selected Work, About Mike, Final CTA/Footer.
+- Use strong whitespace and intentional section spacing.
+- Use 4px to 8px radii for premium cards and controls.
+- Use minimal shadows only to lift important white cards.
+- Mobile stacks the hero before the assistant, then metrics and remaining sections.
 
 ## Content components
 
+### Header
+
+The header should show Rodriguez Advisory and Finance Operations Visibility on the left, with anchors for What We Solve, Selected Work, About, and Book a Call. Keep the primary booking button visible and easy to tap.
+
 ### Hero
 
-The hero must lead with the exact headline: "Finance operations visibility from CRM follow-up to cash collection." Pair it with the tagline "CRM-to-Cash. AP-to-Payment. AI-assisted where it helps."
-
-### Proof metrics
-
-Show concise proof points immediately after the hero. Keep them factual, scannable, and focused on AR recovery, P2P volume, team leadership, and years of finance operations experience.
+Lead with the exact headline: "Finance operations visibility from CRM follow-up to cash collection." Pair it with the line "CRM-to-Cash. AP-to-Payment. AI-assisted where it helps." Include a compact proof preview under the CTAs.
 
 ### AI Workflow Assistant
 
-The AI area should look like a practical workflow assistant with prompt chips, a workflow issue field, a clear safety note, and a sample recommendation card. It must not imply live integrations, provider-specific functionality, or automated decisions without human review.
+Render the AI Workflow Assistant as a premium chat-style card with:
+
+- RA assistant initials badge.
+- Practical AI with human review label.
+- Assistant message bubble.
+- Prompt chips that wrap cleanly.
+- Input row with Generate recommendation button.
+- Safety note: "Do not enter sensitive financial data."
+- Recommendation card for an AP Exception Tracker.
+- Human review where controls matter indicator.
+
+Do not add live provider claims or integrations until intentionally implemented.
+
+### Proof metrics
+
+Show four strong metric cards immediately after the hero. Metric values should be large and Amber Gold. Labels should be concise and factual.
+
+### What We Solve
+
+Include native text-based workflow diagrams for CRM-to-Cash and AP-to-Payment, followed by four concise cards for CRM-to-Cash, AP-to-Payment, AR & Collections, and AI-Assisted Finance Operations.
 
 ### Selected Work
 
-Use selected work cards instead of methodology content. Each card should include Output, Tools, and Why it matters so the offer remains direct and proof-led.
+Use four cards only. Each card must include a native mini-mockup visual at the top plus Output, Tools, and Why it matters. Do not use raw screenshots, stock photos, or fake dashboard numbers.
+
+### About Mike
+
+Use a polished founder card with MR initials, "Founder-led advisory," and the caption "Photo to be added" until a real photo is supplied. Keep the founder bio concise and credentials visible.
 
 ## Accessibility
 
-- Use semantic sections, headings, form labels or `aria-label` attributes, and links.
+- Use semantic sections, headings, links, and labeled form controls.
 - Maintain strong contrast between text and backgrounds.
-- Keep interaction targets large enough for touch input.
-
-### 2026 premium homepage polish
-
-- Use a layered hero background with soft radial gradients, glass navigation, and elevated white cards for a more premium advisory feel.
-- Treat proof metrics as large numeric cards: big value, compact uppercase label, and stronger shadows immediately below the hero.
-- Render the AI Workflow Assistant as a chat-style panel with a header bar, assistant/user message bubbles, prompt chips, a mock-response label, and a compact input composer.
-- Include native workflow diagrams with pill steps and arrows for CRM-to-Cash and AP-to-Payment. Keep diagrams text-only, responsive, and easy to scan on mobile.
-- Selected Work cards should use numbered hierarchy, short labels, and dark-section contrast instead of long paragraphs.
-- About Mike should use a branded founder photo placeholder card until a real portrait is available. Do not use stock photography.
+- Keep touch targets large enough on mobile.
