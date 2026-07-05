@@ -55,3 +55,12 @@ Use selected work cards instead of methodology content. Each card should include
 - Use semantic sections, headings, form labels or `aria-label` attributes, and links.
 - Maintain strong contrast between text and backgrounds.
 - Keep interaction targets large enough for touch input.
+
+### 2026 premium homepage polish
+
+- Use a layered hero background with soft radial gradients, glass navigation, and elevated white cards for a more premium advisory feel.
+- Treat proof metrics as large numeric cards: big value, compact uppercase label, and stronger shadows immediately below the hero.
+- Render the AI Workflow Assistant as a chat-style panel with a header bar, assistant/user message bubbles, prompt chips, a mock-response label, and a compact input composer.
+- Include native workflow diagrams with pill steps and arrows for CRM-to-Cash and AP-to-Payment. Keep diagrams text-only, responsive, and easy to scan on mobile.
+- Selected Work cards should use numbered hierarchy, short labels, and dark-section contrast instead of long paragraphs.
+- About Mike should use a branded founder photo placeholder card until a real portrait is available. Do not use stock photography.
