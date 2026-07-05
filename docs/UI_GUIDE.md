@@ -4,11 +4,11 @@
 
 Rodriguez Advisory is presented as a focused finance operations visibility partner. The one-page site should always emphasize:
 
-- Finance Operations Visibility.
+- Finance Operations Visibility from CRM follow-up to cash collection.
 - CRM-to-Cash clarity.
 - AP-to-Payment confidence.
-- AI-assisted workflows only where they help.
-- Mock AI responses only until a real AI provider is intentionally added.
+- AR and collections follow-up discipline.
+- AI-assisted workflows only where they help, with human review and no live provider claims until intentionally added.
 
 ## Visual system
 
@@ -17,7 +17,7 @@ Rodriguez Advisory is presented as a focused finance operations visibility partn
 - Navy `#10233f`: primary brand color, hero text, dark sections, primary buttons.
 - Blue `#2563eb`: action color, links, accents, and secondary highlights.
 - Teal `#0f766e`: positive status and operational confidence accents.
-- Gold `#c0841a`: small editorial accents for operating-focus sections.
+- Gold `#c0841a`: small editorial accents for solution sections.
 - Paper `#f8fafc`: page background.
 
 ### Typography
@@ -30,23 +30,28 @@ Use system sans-serif fonts through the global CSS stack. Headlines should be bo
 - Use rounded cards, soft shadows, and subtle borders to convey operational polish.
 - Use responsive grids that collapse cleanly on mobile.
 - Navigation should anchor to page sections rather than opening separate pages.
+- Place proof metrics directly below the hero to reinforce credibility before deeper solution content.
 
 ## Content components
 
 ### Hero
 
-The hero must include the exact core message: "CRM-to-Cash. AP-to-Payment. AI-assisted where it helps." Pair it with the Finance Operations Visibility positioning.
+The hero must lead with the exact headline: "Finance operations visibility from CRM follow-up to cash collection." Pair it with the tagline "CRM-to-Cash. AP-to-Payment. AI-assisted where it helps."
 
-### Visibility board
+### Proof metrics
 
-The dashboard-style card is illustrative. Metrics and insights are mock content and should not imply live integrations.
+Show concise proof points immediately after the hero. Keep them factual, scannable, and focused on AR recovery, P2P volume, team leadership, and years of finance operations experience.
 
-### AI language
+### AI Workflow Assistant
 
-Until the product strategy changes, all AI outputs must be explicitly labeled as mock responses. Do not add Grok, live model calls, API keys, or provider-specific claims.
+The AI area should look like a practical workflow assistant with prompt chips, a workflow issue field, a clear safety note, and a sample recommendation card. It must not imply live integrations, provider-specific functionality, or automated decisions without human review.
+
+### Selected Work
+
+Use selected work cards instead of methodology content. Each card should include Output, Tools, and Why it matters so the offer remains direct and proof-led.
 
 ## Accessibility
 
-- Use semantic sections, headings, and links.
+- Use semantic sections, headings, form labels or `aria-label` attributes, and links.
 - Maintain strong contrast between text and backgrounds.
 - Keep interaction targets large enough for touch input.
